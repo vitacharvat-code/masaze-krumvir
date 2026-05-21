@@ -27,19 +27,19 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#002B7F] shadow-lg"
-          : "bg-[#002B7F]/90 backdrop-blur-sm"
+          ? "bg-[#0C1222] shadow-lg"
+          : "bg-[#0C1222]/90 backdrop-blur-sm"
       }`}
     >
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 sm:h-20">
         {/* Logo */}
         <Link href="#" className="flex items-center gap-3 group" onClick={handleNavClick}>
           <div className="w-10 h-10 sm:w-12 sm:h-12 relative flex-shrink-0">
-            <Image src="/logo.svg" alt="Masáže Krumvír" fill className="object-contain" />
+            <Image src="/logo.svg" alt="Masáže Krumvíř" fill className="object-contain" />
           </div>
           <div className="hidden sm:block">
             <span className="font-display font-bold text-white text-lg leading-tight block">
-              Masáže Krumvír
+              Masáže Krumvíř
             </span>
             <span className="text-[#FCD116] text-xs tracking-widest uppercase">
               Cristian Balaci
@@ -90,7 +90,7 @@ export default function Navbar() {
       <div
         className={`md:hidden transition-all duration-300 overflow-hidden ${
           menuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
-        } bg-[#002B7F] border-t border-white/10`}
+        } bg-[#0C1222] border-t border-white/10`}
       >
         <div className="px-4 py-4 flex flex-col gap-4">
           {links.map((l) => (

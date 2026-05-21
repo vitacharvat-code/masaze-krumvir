@@ -13,13 +13,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Masáže Krumvír | Cristian Balaci",
+  title: "Masáže Krumvíř | Cristian Balaci",
   description:
     "Profesionální mobilní masáže v Krumvíři a okolí. Sportovní, rekondiční, relaxační masáže, baňkování a tejping. Přijedu přímo za vámi.",
   keywords:
-    "masáže Krumvír, sportovní masáž, relaxační masáž, baňkování, tejping, mobilní masér",
+    "masáže Krumvíř, sportovní masáž, relaxační masáž, baňkování, tejping, mobilní masér",
   openGraph: {
-    title: "Masáže Krumvír | Cristian Balaci",
+    title: "Masáže Krumvíř | Cristian Balaci",
     description: "Profesionální mobilní masáže v Krumvíři a okolí.",
     locale: "cs_CZ",
     type: "website",

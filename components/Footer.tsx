@@ -14,7 +14,7 @@ export default function Footer() {
                 <Image src="/logo.svg" alt="Logo" fill className="object-contain" />
               </div>
               <div>
-                <p className="font-display font-bold text-white">Masáže Krumvír</p>
+                <p className="font-display font-bold text-white">Masáže Krumvíř</p>
                 <p className="text-[#FCD116] text-xs tracking-widest">Cristian Balaci</p>
               </div>
             </div>
