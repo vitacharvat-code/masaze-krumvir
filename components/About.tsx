@@ -40,14 +40,16 @@ export default function About() {
               sportovního klubu.
             </p>
             <p className="text-gray-600 leading-relaxed mb-5">
-              Mám za sebou kurzy sportovní masáže, relaxačních technik,
-              baňkování, tejpingu i lávových kamenů. Každou masáž přizpůsobuji
-              individuálním potřebám klienta, ať hledáte regeneraci po sportu,
-              úlevu od stresu, nebo pomoc s chronickým napětím.
+              Pocházím z Rumunska, ale už 18 let žiju tady a cítím se tu jako
+              doma. Z Rumunska si přináším sílu, kterou pokud je potřeba,
+              používám při masáži. Každou masáž přizpůsobuji individuálním
+              potřebám klienta, ať hledáte regeneraci po sportu, úlevu od
+              stresu, nebo pomoc s chronickým napětím.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Přináším s sebou všechno potřebné vybavení. Vám stačí jen pohodlné
-              místo a chuť se uvolnit.
+              Mám za sebou kurzy sportovní masáže, relaxačních technik,
+              baňkování, tejpingu i lávových kamenů. Přináším s sebou všechno
+              potřebné vybavení. Vám stačí jen pohodlné místo a chuť se uvolnit.
             </p>
 
             <div className="flex flex-wrap gap-3">
