@@ -29,7 +29,6 @@ export default function Hero() {
         </h1>
         <p className="text-white/80 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
           Profesionální sportovní, rekondiční a relaxační masáže přímo u vás doma.
-          Bez čekáren, bez dopravy — váš čas je vzácný.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
