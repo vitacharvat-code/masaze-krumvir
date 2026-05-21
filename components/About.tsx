@@ -7,7 +7,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Photo */}
           <div className="relative">
-            <div className="relative h-[420px] sm:h-[520px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative h-[420px] sm:h-[520px] overflow-hidden shadow-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80"
                 alt="Cristian Balaci - masér"
@@ -16,7 +16,7 @@ export default function About() {
               />
             </div>
             {/* Accent card */}
-            <div className="absolute -bottom-6 -right-4 sm:-right-8 bg-[#002B7F] text-white rounded-xl p-5 shadow-xl max-w-[180px]">
+            <div className="absolute -bottom-6 -right-4 sm:-right-8 bg-[#002B7F] text-white p-5 shadow-xl max-w-[180px]">
               <p className="font-display text-3xl font-bold text-[#FCD116]">5+</p>
               <p className="text-sm leading-tight mt-1 text-white/80">
                 absolvovaných kurzů
@@ -32,7 +32,7 @@ export default function About() {
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-[#002B7F] leading-tight mb-6">
               Cristian Balaci
             </h2>
-            <div className="w-16 h-1 bg-[#FCD116] rounded mb-6" />
+            <div className="w-16 h-px bg-[#FCD116] mb-6" />
             <p className="text-gray-600 text-lg leading-relaxed mb-5">
               Jsem mobilní masér působící v Krumvíři a celém okolí. Věřím, že
               kvalitní masáž by neměla být privilegiem — přijedu přímo za vámi,
@@ -54,7 +54,7 @@ export default function About() {
                 (tag) => (
                   <span
                     key={tag}
-                    className="bg-[#002B7F]/10 text-[#002B7F] px-4 py-1.5 rounded-full text-sm font-medium"
+                    className="border border-[#002B7F]/20 text-[#002B7F] px-4 py-1.5 text-sm font-medium"
                   >
                     {tag}
                   </span>

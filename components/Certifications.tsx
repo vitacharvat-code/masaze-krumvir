@@ -34,7 +34,7 @@ export default function Certifications() {
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-[#002B7F] leading-tight mb-6">
               Certifikace
             </h2>
-            <div className="w-16 h-1 bg-[#FCD116] rounded mb-6" />
+            <div className="w-16 h-px bg-[#FCD116] mb-6" />
             <p className="text-gray-500 leading-relaxed text-lg">
               Každá technika, kterou nabízím, je podložena absolvovaným kurzem.
               Vzdělávám se průběžně, abych vám mohl nabídnout skutečně kvalitní
