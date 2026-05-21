@@ -22,7 +22,7 @@ const services = [
     description:
       "Celotělová masáž pro úlevu od stresu a navození hlubokého klidu. Jemné harmonické techniky uklidňují nervový systém a obnovují vnitřní rovnováhu.",
     image:
-      "https://images.unsplash.com/photo-1540555700478-4be290a04495?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=600&q=80",
     accent: "#002B7F",
   },
   {
