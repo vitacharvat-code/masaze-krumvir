@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Profesionální mobilní masáže v Krumvíři a okolí. Sportovní, rekondiční, relaxační masáže, baňkování a tejping. Přijedu přímo za vámi.",
   keywords:
-    "masáže Krumvíř, sportovní masáž, relaxační masáž, baňkování, tejping, mobilní masér",
+    "masáže Krumvíř, sportovní masáž, relaxační masáž, baňkování, tejping, mobilní masér, masáže Hustopeče, masáže Klobouky u Brna, masáže Hodonín, masáže Pohořelice, masáže jižní Morava, masér Krumvíř, Cristian Balaci",
   metadataBase: new URL("https://www.masazekrumvir.cz"),
   alternates: { canonical: "https://www.masazekrumvir.cz" },
   openGraph: {
@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     url: "https://www.masazekrumvir.cz",
     locale: "cs_CZ",
     type: "website",
+    images: [
+      {
+        url: "/images/hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Masáže Krumvíř – Cristian Balaci, mobilní masér",
+      },
+    ],
   },
 };
 
@@ -51,15 +59,17 @@ const jsonLd = {
     latitude: 48.9747,
     longitude: 16.9203,
   },
-  areaServed: {
-    "@type": "GeoCircle",
-    geoMidpoint: {
-      "@type": "GeoCoordinates",
-      latitude: 48.9747,
-      longitude: 16.9203,
-    },
-    geoRadius: "30000",
-  },
+  areaServed: [
+    { "@type": "City", name: "Krumvíř" },
+    { "@type": "City", name: "Hustopeče" },
+    { "@type": "City", name: "Klobouky u Brna" },
+    { "@type": "City", name: "Pohořelice" },
+    { "@type": "City", name: "Velké Pavlovice" },
+    { "@type": "City", name: "Čejkovice" },
+    { "@type": "City", name: "Hodonín" },
+    { "@type": "City", name: "Kyjov" },
+    { "@type": "City", name: "Mikulov" },
+  ],
   priceRange: "$$",
   image: "https://www.masazekrumvir.cz/logo.svg",
   hasOfferCatalog: {

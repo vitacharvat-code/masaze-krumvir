@@ -17,6 +17,17 @@ export default function Contact() {
           </p>
         </div>
 
+        {/* Oblast působení */}
+        <div className="mb-10 p-6 bg-white border border-gray-100">
+          <p className="text-[#002B7F] text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+            Oblast působení
+          </p>
+          <p className="text-gray-500 text-sm leading-relaxed">
+            Krumvíř · Hustopeče · Klobouky u Brna · Pohořelice · Velké Pavlovice ·
+            Čejkovice · Hodonín · Kyjov · Mikulov a celé jižní Morava
+          </p>
+        </div>
+
         {/* Contact cards */}
         <div className="grid sm:grid-cols-3 gap-6">
           {/* Phone — primary, highlighted */}

@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero.jpg"
-          alt="Masáž - hero pozadí"
+          alt="Mobilní masér Cristian Balaci - profesionální masáže Krumvíř a okolí"
           fill
           priority
           className="object-cover"

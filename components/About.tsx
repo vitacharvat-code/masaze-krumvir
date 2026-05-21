@@ -10,7 +10,7 @@ export default function About() {
             <div className="relative h-[420px] sm:h-[520px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/Cristi_certificate.png"
-                alt="Cristian Balaci - masér"
+                alt="Cristian Balaci - certifikovaný mobilní masér, Krumvíř"
                 fill
                 className="object-cover"
               />

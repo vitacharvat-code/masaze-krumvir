@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 relative flex-shrink-0">
-                <Image src="/logo.svg" alt="Logo" fill className="object-contain" />
+                <Image src="/logo.svg" alt="Masáže Krumvíř – Cristian Balaci" fill className="object-contain" />
               </div>
               <div>
                 <p className="font-display font-bold text-white">Masáže Krumvíř</p>

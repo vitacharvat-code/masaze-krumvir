@@ -63,7 +63,7 @@ export default function Services() {
               <div className="relative h-48 overflow-hidden">
                 <Image
                   src={service.image}
-                  alt={service.title}
+                  alt={`${service.title} – mobilní masér Krumvíř a okolí`}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
