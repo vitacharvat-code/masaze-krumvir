@@ -34,7 +34,7 @@ export default function About() {
             </h2>
             <div className="w-16 h-1 bg-[#FCD116] rounded mb-6" />
             <p className="text-gray-600 text-lg leading-relaxed mb-5">
-              Jsem mobilní masér působící v Krumvíři a celém okolí. Věřím, že
+              Jsem <strong className="text-[#002B7F]">mobilní masér</strong> působící v Krumvíři a celém okolí. Věřím, že
               kvalitní masáž by neměla být privilegiem, ale zaslouženou odměnou.
               Přijedu přímo za vámi, ať jste doma, v práci nebo na tréninku
               sportovního klubu.
