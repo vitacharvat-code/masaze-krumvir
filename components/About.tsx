@@ -9,7 +9,7 @@ export default function About() {
           <div className="relative">
             <div className="relative h-[420px] sm:h-[520px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80"
+                src="/Cristi_certificate.png"
                 alt="Cristian Balaci - masér"
                 fill
                 className="object-cover"
