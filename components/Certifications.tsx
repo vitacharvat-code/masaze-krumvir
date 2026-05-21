@@ -2,27 +2,22 @@ const certifications = [
   {
     title: "Sportovní masáž",
     description: "Technika zaměřená na sportovce a fyzicky aktivní klienty, regenerace a prevence zranění.",
-    icon: "🏅",
   },
   {
     title: "Relaxační masáž",
     description: "Komplexní přístupy k celotělové relaxaci, uvolnění stresu a harmonizaci organismu.",
-    icon: "🌿",
   },
   {
     title: "Baňkování",
     description: "Terapeutická metoda s využitím vakuových baněk pro hlubokou práci se svalovinou.",
-    icon: "🔵",
   },
   {
     title: "Kinesio tejping",
     description: "Aplikace elastických tejpů pro podporu svalů, kloubů a urychlení regenerace.",
-    icon: "🩹",
   },
   {
     title: "Masáž lávovými kameny",
     description: "Prohřívací masáž vulkanickými kameny pro hluboké uvolnění svalů a navození pohody.",
-    icon: "🪨",
   },
 ];
 
@@ -58,18 +53,15 @@ export default function Certifications() {
                 key={cert.title}
                 className="flex gap-4 p-5 rounded-xl border border-gray-100 hover:border-[#FCD116]/60 hover:shadow-md transition-all duration-200 bg-white group"
               >
-                <div className="flex-shrink-0 w-12 h-12 bg-[#002B7F]/8 rounded-xl flex items-center justify-center text-2xl group-hover:bg-[#FCD116]/20 transition-colors">
-                  {cert.icon}
+                <div className="flex-shrink-0 w-10 flex items-start pt-0.5">
+                  <span className="text-sm font-bold text-[#FCD116] bg-[#002B7F] px-2 py-0.5 rounded-full tabular-nums">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
                 </div>
                 <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold text-[#FCD116] bg-[#002B7F] px-2 py-0.5 rounded-full">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <h3 className="font-semibold text-[#002B7F] text-base">
-                      {cert.title}
-                    </h3>
-                  </div>
+                  <h3 className="font-semibold text-[#002B7F] text-base mb-1">
+                    {cert.title}
+                  </h3>
                   <p className="text-gray-500 text-sm leading-relaxed">
                     {cert.description}
                   </p>
