@@ -60,7 +60,7 @@ export default function Navbar() {
           ))}
           <a
             href="#kontakt"
-            className="bg-[#002B7F] text-white px-5 py-2 rounded-none text-sm font-semibold hover:bg-[#001E5E] transition-colors"
+            className="bg-[#002B7F] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#001E5E] transition-colors"
           >
             Objednat se
           </a>
@@ -106,7 +106,7 @@ export default function Navbar() {
           <a
             href="#kontakt"
             onClick={handleNavClick}
-            className="bg-[#002B7F] text-white px-5 py-2.5 rounded-none text-sm font-semibold text-center hover:bg-[#001E5E] transition-colors"
+            className="bg-[#002B7F] text-white px-5 py-2.5 rounded-full text-sm font-semibold text-center hover:bg-[#001E5E] transition-colors"
           >
             Objednat se
           </a>

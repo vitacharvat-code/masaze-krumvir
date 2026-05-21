@@ -62,7 +62,7 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#FCD116]/40 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/20"
+              className="group bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#FCD116]/40 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/20"
             >
               <div className="relative h-48 overflow-hidden">
                 <Image
@@ -85,7 +85,7 @@ export default function Services() {
           ))}
 
           {/* CTA card */}
-          <div className="bg-[#FCD116] p-6 flex flex-col justify-between sm:col-span-2 lg:col-span-1">
+          <div className="bg-[#FCD116] rounded-2xl p-6 flex flex-col justify-between sm:col-span-2 lg:col-span-1">
             <div>
               <p className="font-display font-bold text-2xl text-[#002B7F] mb-3">
                 Máte zájem?
@@ -97,7 +97,7 @@ export default function Services() {
             </div>
             <a
               href="#kontakt"
-              className="block text-center bg-[#002B7F] text-white px-6 py-3 font-semibold text-sm tracking-[0.08em] uppercase hover:bg-[#001E5E] transition-colors"
+              className="block text-center bg-[#002B7F] text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-[#001E5E] transition-colors"
             >
               Kontaktujte mě
             </a>
