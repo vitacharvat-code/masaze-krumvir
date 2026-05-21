@@ -5,39 +5,35 @@ const services = [
     title: "Sportovní masáž",
     description:
       "Cílená masáž pro sportovce i aktivní jedince. Pomáhá s regenerací svalů po zátěži, urychluje hojení, předchází zraněním a zvyšuje sportovní výkonnost.",
-    image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80",
+    image: "/images/sportovni.jpg",
     accent: "#002B7F",
   },
   {
     title: "Rekondiční masáž",
     description:
       "Hluboká masáž zaměřená na celkovou obnovu organismu. Uvolňuje přetížené svalové skupiny, obnovuje pohyblivost a pomáhá při chronickém napětí.",
-    image:
-      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80",
+    image: "/images/rekondicni.jpg",
     accent: "#002B7F",
   },
   {
     title: "Relaxační masáž",
     description:
       "Celotělová masáž pro úlevu od stresu a navození hlubokého klidu. Jemné harmonické techniky uklidňují nervový systém a obnovují vnitřní rovnováhu.",
-    image: "/relaxacni-masaz.jpg",
+    image: "/images/relax.jpg",
     accent: "#002B7F",
   },
   {
     title: "Baňkování",
     description:
       "Tradiční terapeutická metoda využívající podtlak baněk. Zlepšuje prokrvení, podporuje lymfatický systém, uvolňuje hluboké svalové napětí a detoxikuje tkáně.",
-    image:
-      "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?auto=format&fit=crop&w=600&q=80",
+    image: "/images/banky.jpg",
     accent: "#CE1126",
   },
   {
     title: "Tejping",
     description:
       "Aplikace kinesiotejpů na svalové a kloubní partie. Redukuje bolest, snižuje otoky, podporuje správnou svalovou funkci a urychluje regeneraci po zranění.",
-    image:
-      "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=600&q=80",
+    image: "/images/tepjing.jpg",
     accent: "#002B7F",
   },
 ];
