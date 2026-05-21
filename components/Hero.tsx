@@ -21,7 +21,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center pt-20">
         <p className="text-[#FCD116] text-sm sm:text-base font-medium tracking-[0.2em] uppercase mb-4">
-          Mobilní masér · Krumvíř a okolí
+          <span className="text-white">Mobilní masér</span> · Krumvíř a okolí
         </p>
         <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
           <span className="text-[#FCD116]">Pořádná úleva</span>{" "}
