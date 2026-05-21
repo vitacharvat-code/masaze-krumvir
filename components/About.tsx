@@ -40,7 +40,7 @@ export default function About() {
               sportovního klubu.
             </p>
             <p className="text-gray-600 leading-relaxed mb-5">
-              Pocházím z Rumunska, ale už 18 let žiju tady a cítím se tu jako
+              Pocházím z Rumunska, ale už 18 let žiju v ČR a cítím se tu jako
               doma. Z Rumunska si přináším sílu, kterou pokud je potřeba,
               používám při masáži. Každou masáž přizpůsobuji individuálním
               potřebám klienta, ať hledáte regeneraci po sportu, úlevu od
