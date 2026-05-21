@@ -17,9 +17,9 @@ export default function About() {
             </div>
             {/* Accent card */}
             <div className="absolute -bottom-6 -right-4 sm:-right-8 bg-[#002B7F] text-white rounded-xl p-5 shadow-xl max-w-[180px]">
-              <p className="font-display text-3xl font-bold text-[#FCD116]">5+</p>
+              <p className="font-display text-3xl font-bold text-[#FCD116]">13+</p>
               <p className="text-sm leading-tight mt-1 text-white/80">
-                absolvovaných kurzů
+                let zkušeností
               </p>
             </div>
           </div>
