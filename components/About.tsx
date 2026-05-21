@@ -35,17 +35,18 @@ export default function About() {
             <div className="w-16 h-1 bg-[#FCD116] rounded mb-6" />
             <p className="text-gray-600 text-lg leading-relaxed mb-5">
               Jsem mobilní masér působící v Krumvíři a celém okolí. Věřím, že
-              kvalitní masáž by neměla být privilegiem — přijedu přímo za vámi,
-              ať jste doma, v práci nebo ve sportovním klubu.
+              kvalitní masáž by neměla být privilegiem, ale zaslouženou odměnou.
+              Přijedu přímo za vámi, ať jste doma, v práci nebo na tréninku
+              sportovního klubu.
             </p>
             <p className="text-gray-600 leading-relaxed mb-5">
               Mám za sebou kurzy sportovní masáže, relaxačních technik,
               baňkování, tejpingu i lávových kamenů. Každou masáž přizpůsobuji
-              individuálním potřebám klienta — ať hledáte regeneraci po sportu,
+              individuálním potřebám klienta, ať hledáte regeneraci po sportu,
               úlevu od stresu, nebo pomoc s chronickým napětím.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Přínáším s sebou všechno potřebné vybavení. Vám stačí jen pohodlné
+              Přináším s sebou všechno potřebné vybavení. Vám stačí jen pohodlné
               místo a chuť se uvolnit.
             </p>
 
