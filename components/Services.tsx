@@ -21,8 +21,7 @@ const services = [
     title: "Relaxační masáž",
     description:
       "Celotělová masáž pro úlevu od stresu a navození hlubokého klidu. Jemné harmonické techniky uklidňují nervový systém a obnovují vnitřní rovnováhu.",
-    image:
-      "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=600&q=80",
+    image: "/relaxacni-masaz.jpg",
     accent: "#002B7F",
   },
   {
