@@ -19,7 +19,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed">
-              Mobilní masér přijíždějící přímo k vám — Krumvíř a okolí.
+              Mobilní masér přijíždějící přímo k vám, Krumvíř a okolí.
             </p>
           </div>
 

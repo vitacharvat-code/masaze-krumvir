@@ -12,7 +12,7 @@ export default function Contact() {
           </h2>
           <div className="w-16 h-1 bg-[#FCD116] rounded mx-auto mb-6" />
           <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-            Zavolejte nebo napište — ozvu se co nejdříve a domluvíme termín,
+            Zavolejte nebo napište, ozvu se co nejdříve a domluvíme termín,
             který vám vyhovuje.
           </p>
         </div>
