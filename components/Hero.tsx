@@ -24,8 +24,8 @@ export default function Hero() {
           Mobilní masér · Krumvíř a okolí
         </p>
         <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
-          Masáže, které{" "}
-          <span className="text-[#FCD116]">přijdou za vámi</span>
+          <span className="text-[#FCD116]">Pořádná úleva</span>{" "}
+          pro unavené tělo
         </h1>
         <p className="text-white/80 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
           Profesionální sportovní, rekondiční a relaxační masáže přímo u vás doma.
