@@ -27,8 +27,8 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#0C1222] shadow-lg"
-          : "bg-[#0C1222]/90 backdrop-blur-sm"
+          ? "bg-white shadow-md"
+          : "bg-white/95 backdrop-blur-sm"
       }`}
     >
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 sm:h-20">
@@ -38,10 +38,10 @@ export default function Navbar() {
             <Image src="/logo.svg" alt="Masáže Krumvíř" fill className="object-contain" />
           </div>
           <div className="hidden sm:block">
-            <span className="font-display font-bold text-white text-lg leading-tight block">
+            <span className="font-display font-bold text-[#002B7F] text-lg leading-tight block">
               Masáže Krumvíř
             </span>
-            <span className="text-[#FCD116] text-xs tracking-widest uppercase">
+            <span className="text-[#CE1126] text-xs tracking-widest uppercase">
               Cristian Balaci
             </span>
           </div>
@@ -53,14 +53,14 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="text-white/80 hover:text-[#FCD116] transition-colors text-sm font-medium tracking-wide"
+              className="text-[#002B7F]/70 hover:text-[#002B7F] transition-colors text-sm font-medium tracking-wide"
             >
               {l.label}
             </a>
           ))}
           <a
             href="#kontakt"
-            className="bg-[#FCD116] text-[#002B7F] px-5 py-2 rounded-full text-sm font-semibold hover:bg-yellow-300 transition-colors"
+            className="bg-[#002B7F] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#001E5E] transition-colors"
           >
             Objednat se
           </a>
@@ -68,7 +68,7 @@ export default function Navbar() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-white p-2"
+          className="md:hidden text-[#002B7F] p-2"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Otevřít menu"
         >
@@ -90,7 +90,7 @@ export default function Navbar() {
       <div
         className={`md:hidden transition-all duration-300 overflow-hidden ${
           menuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
-        } bg-[#0C1222] border-t border-white/10`}
+        } bg-white border-t border-gray-100`}
       >
         <div className="px-4 py-4 flex flex-col gap-4">
           {links.map((l) => (
@@ -98,7 +98,7 @@ export default function Navbar() {
               key={l.href}
               href={l.href}
               onClick={handleNavClick}
-              className="text-white/80 hover:text-[#FCD116] transition-colors text-base font-medium py-1"
+              className="text-[#002B7F]/70 hover:text-[#002B7F] transition-colors text-base font-medium py-1"
             >
               {l.label}
             </a>
@@ -106,7 +106,7 @@ export default function Navbar() {
           <a
             href="#kontakt"
             onClick={handleNavClick}
-            className="bg-[#FCD116] text-[#002B7F] px-5 py-2.5 rounded-full text-sm font-semibold text-center hover:bg-yellow-300 transition-colors"
+            className="bg-[#002B7F] text-white px-5 py-2.5 rounded-full text-sm font-semibold text-center hover:bg-[#001E5E] transition-colors"
           >
             Objednat se
           </a>
